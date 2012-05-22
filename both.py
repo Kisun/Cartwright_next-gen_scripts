@@ -1,8 +1,9 @@
 #!/user/bin/python
 
 '''
-	both.py processes two fastq files, one containing R1 reads and another containing R2 reads
-	and returns two files containg only reads that are present in both of the input files.
+	both.py processes two fastq files generated using Illumina's pipeline CASAVA 1.8 and higher, 
+	one containing R1 reads and another containing R2 reads and returns two files containg only reads 
+	that are present in both of the input files.
 
 	To use:
 
@@ -12,7 +13,7 @@
 	R1.fastq.both 
 	R2.fastq.both
 
-	This script used the screed module: https://github.com/ctb/screed
+	This script uses the screed module: https://github.com/ctb/screed
 '''
 
 import screed
