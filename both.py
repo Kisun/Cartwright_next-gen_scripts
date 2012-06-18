@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/usr/bin/python
 
 '''
 	both.py processes two fastq files generated using Illumina's pipeline CASAVA 1.8 and higher, 
