@@ -1,1 +1,13 @@
 This is a collection of python scripts for the analysis of next-gen sequence data.
+
+both.py: processes Illumina paired end fastq file and returns paired sequences for which read 1 and read 2 exist.
+
+counts-paired.py: extracts mapped read counts from a sam file for paired end reads.
+
+counts.py: extracts mapped read counts from a sam file.
+
+annotate_mcl.py: annotates OrthoMCL ortholog sequences.
+
+shuffle_resamp.py: creates subsampled datasets of paired-end Illumina Reads. 
+
+percent_diff.py: calculates percent diferences in up/down regulation for mapped read counts. 
